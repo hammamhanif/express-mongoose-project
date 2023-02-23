@@ -1,0 +1,24 @@
+	<!-- tempat konten halaman web -->
+	<div style="padding:16px">
+		<h2>Halaman Utama</h2>
+		<p>Ini adalah halaman utama situs web kami.</p>
+	</div>
+	<div>
+		<h2>
+			Halo <%=nama%>
+		</h2>
+		<h3>
+			Daftar Mahasiswa
+		</h3>
+		<% if (mahasiswa.length<1) { %>
+		 <p>Data Mahasiswa Masih Kosong</p>
+		<% }else{ %>
+			<% mahasiswa.forEach(mhs => { %>
+				<Ul>
+					<li>Nama : <%=mhs.nama%></li>
+					<li>Email : <%=mhs.email%></li>
+				</Ul>
+			<% }) %>
+		<%}%>
+	</div>
+
