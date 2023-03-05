@@ -1,5 +1,5 @@
 # express-mongoose-project
-Project sederhana mengenai Expres.js yang dapat terkoneksi dengan database no SQL mongoDB menggunakan framwork mongoose.
+Project sederhana mengenai Express.js yang dapat terkoneksi dengan database no SQL mongoDB menggunakan framework mongoose.
 
 Untuk memulai project ini diperlukan beberapa library dan module yang dapat di download berdasarkan perintah npm:
 1. express
